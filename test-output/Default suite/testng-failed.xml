@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="SeleniumTest">
+        <methods>
+          <include name="searchTest"/>
+          <include name="deleteControlTest"/>
+          <include name="Siten11Test"/>
+          <include name="loginTest"/>
+          <include name="LoginpageTest"/>
+          <include name="beforeTest"/>
+          <include name="ProductControlTest"/>
+          <include name="productTest"/>
+          <include name="secondpageTest"/>
+          <include name="addfavoriteTest"/>
+          <include name="tearDownTest"/>
+          <include name="deleteTest"/>
+        </methods>
+      </class> <!-- SeleniumTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
